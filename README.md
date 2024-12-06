@@ -13,4 +13,8 @@ The dataset regroups data for different oxidation states of the same metal when 
 
 Regarding the organic phase, the concentration of TBP (%) is used as a feature, as well as the dielectric constant (ε) of the solvent used, since it defines the intensity and nature of interaction involved during the solvent extraction of metals. Dielectric constant of TBP (ε=8.34) is used when undiluted TBP is used as an organic phase. Other features include the O/A ratio (equal to 1 in most cases) and the mixing time (seconds). The kinetics aspects of the solvent extraction are not studied here since the all of the data included in the database are reported at equilibrium, but further work will be dedicated to the study of those kinetics aspects, using more relevant features such as viscosity of the phases and hydrodynamic conditions. Temperature was not selected as a feature since most of the experimentally determined values have been obtained at room temperature (25°C). 
 
+8 different machine learning algorithms were tested on this dataset, their hyperparameters were optimised using Gridsearch. The best performing algorithm was found to be Extrtrees regressor, which shows the highest R squared but also the lowest mean absolute error (AME), root mean square error (RMSE), and average absolute relative deviation. All algorithms show a slight tendency to overfitting with poorer metrics during testing as compared to training, in particular the extratrees regressor with a significantly higher testing AARD. 
+![image](https://github.com/user-attachments/assets/efcc189a-ae9e-418e-bc1c-8514a4af5604)
+Table 1. Comparison of the metrics obtained with 
 
+Performances of the extratrees regressor was significantly improved by removing the outliers with an isolation forest. 
