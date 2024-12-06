@@ -28,6 +28,7 @@ Table 2. Optimised hyperârameters and performances obtained with the extratrees
 
 
 ![image](https://github.com/user-attachments/assets/67298472-8602-4630-b5e5-5b10472ed952)
+
 Figure 2. Experimental vs calculated E using the opitmised extratrees regressor
 
 
@@ -40,4 +41,5 @@ This version could then be used to predict extraction efficiency values. Predict
 ![image](https://github.com/user-attachments/assets/7fb5b452-88dc-45ff-b950-7fb7163b7d34)
 ![image](https://github.com/user-attachments/assets/fd0b886c-42ed-46d3-8982-a2814e4afe81)
 ![image](https://github.com/user-attachments/assets/d76e02d6-69df-495d-bb7a-e536a5b857a3)
+
 Figure 3. Predicted (line) and experimental (dots) concentration of various acids extracted in the pure TBP phase as a function of the initial aqueous acid concentration. 
