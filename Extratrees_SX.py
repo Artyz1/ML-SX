@@ -7,7 +7,6 @@ from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
 import matplotlib.pyplot as plt
 
 # Load data from Excel file
-# File path to the database goes here
 file_path = "file_path_goes_here"
 df = pd.read_excel(file_path)
 
