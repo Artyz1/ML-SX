@@ -89,8 +89,6 @@ plt.plot(y_test, y_test, 'k-', label='y = x')
 # Adjusting labels and adding legend
 plt.xlabel("Experimental E")
 plt.ylabel("Calculated E")
+plt.title("Best Model Performance with Extratrees regressor")
 plt.legend(frameon=False)
-
-# Save the plot to a file
-plt.savefig('experimental_calculated_E.png')
-plt.close()
+plt.show()
