@@ -84,14 +84,10 @@ plt.plot(y_test, p(y_test), "r-", label='Best Linear Fit')
 # y = x line in thinner dotted black
 plt.plot(y_test, y_test, 'k-', label='y = x')
 
+
 # Adjusting labels and adding legend
 plt.xlabel("Experimental E")
 plt.ylabel("Calculated E")
-plt.title("Experimental vs calculated E: Bagging")
+plt.title("Best Model Performance with Bagging")
 plt.legend(frameon=False)
 plt.show()
-
-# Save the plot to a file
-plt.savefig('model_performance.png')
-plt.close()
-
