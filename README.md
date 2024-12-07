@@ -1,7 +1,8 @@
 ML-SX: machine learning for the modelling of metal solvent extraction processes 
 
-Solvent extraction is a crucial process to purify metals from either primary or secondary sources. Modelling solvent extraction processes is a cumbersome task requiring extensive experimental work to understand the behaviour of the metal in the aqueous and organic phases. 
-A database containing around than 18,800 data points related to the extraction of 72 metals and non-metals and 5 acids extracted with tributyl phosphate (TBP) has been built and is used to train machine learning (ML) models. The database can be found in the "Database solvent extraction with TBP". The literature references to build the database can be found in the excel file. 
+Solvent extraction (SX) is a crucial process to purify metals from either primary or secondary sources. Modelling solvent extraction processes is a cumbersome task requiring extensive experimental work to understand the behaviour of the metal in the aqueous and organic phases. Machine learning (ML) could streamline SX modelling tasks but requires to build a proper database and training an appropriate ML model. 
+
+A database containing around than 18,800 data points related to the extraction of 72 metals and non-metals and 5 acids extracted with tributyl phosphate (TBP) has been built and is used to train ML models. The database can be found in the "Database solvent extraction with TBP". The literature references to build the database can be found in the excel file. 
 
 Data on the extraction of metals and acids were gathered by selecting studies where TBP is used (alone) as an extracting molecule. Since TBP has been used at the industrial scale for decades, data for multiple metals in multiple aqueous media are available (metals, nonmetals and acids extracted from sulfuric, phosphoric, hydrochloric, hydrobromic, perchloric and fluoric acid media).  The periodic table displayed in Fig. 1 shows the metals, non-metals and protons (H) for which data is available, and the anion used in the aqueous solution considered.
 
