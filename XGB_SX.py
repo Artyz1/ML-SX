@@ -84,7 +84,7 @@ z = np.polyfit(y_test, y_pred, 1)
 p = np.poly1d(z)
 plt.plot(y_test, p(y_test), "r-", label='Best Linear Fit')
 
-# y = x line in thinner dotted black
+# y = x line for comparison
 plt.plot(y_test, y_test, 'k-', label='y = x')
 
 # Adjusting labels and adding legend
