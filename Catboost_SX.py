@@ -89,3 +89,7 @@ plt.xlabel("Experimental E")
 plt.ylabel("Calculated E")
 plt.title("Experimental vs calculated E: CatBoostRegressor")
 plt.legend(frameon=False)
+
+# Save the plot to a file
+plt.savefig('Experimental_calculated_E_catboost.png')
+plt.close()
