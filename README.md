@@ -21,7 +21,7 @@ The best performing algorithm was found to be Extrtrees regressor, which shows t
 Table 1. Comparison of the metrics obtained with different optimised ML algorithms 
 ![image](https://github.com/user-attachments/assets/efcc189a-ae9e-418e-bc1c-8514a4af5604)
 
-The performance of the ExtraTreesRegressor was significantly improved by removing outliers using an Isolation Forest (see Table 2 and Figure 2), allowing to obatin a training AARD as low as 2.6%.
+The performance of the ExtraTreesRegressor was significantly improved by removing outliers using an Isolation Forest (see Table 2 and Figure 2), allowing to obatin a testing AARD as low as 2.6%.
 
 Table 2. Optimised hyperârameters and performances obtained with the extratrees regressor
 ![image](https://github.com/user-attachments/assets/5fc89864-fdc5-4b83-b487-56d741a5c897)
@@ -33,7 +33,7 @@ Table 2. Optimised hyperârameters and performances obtained with the extratrees
 Figure 2. Experimental vs calculated E using the opitmised extratrees regressor
 
 
-This version could then be used to predict extraction efficiency values. Predictions are obviosuly dependent on the training data and could be innacurate, in particular if conflicts exists between literature data. Figure 3 shows an example of the predicted vs actual extraction of acids into an organic phase made of- undiluted TBP.
+This version could then be used to predict extraction efficiency values. Predictions are obviosuly dependent on the training data and could be innacurate, in particular if conflicts exists between literature data. Figure 3 shows an example of the predicted vs actual extraction of acids into an organic phase made of undiluted TBP.
 
 
 
