@@ -40,6 +40,5 @@ This version could then be used to predict extraction efficiency values. Predict
 
 ![image](https://github.com/user-attachments/assets/0e010383-107d-4434-9bce-ea9453ac335c)
 ![image](https://github.com/user-attachments/assets/7fb5b452-88dc-45ff-b950-7fb7163b7d34)
-![image](https://github.com/user-attachments/assets/d76e02d6-69df-495d-bb7a-e536a5b857a3)
 
 Figure 3. Predicted (line) and experimental (dots) concentration of various acids extracted in the pure TBP phase as a function of the initial aqueous acid concentration. 
