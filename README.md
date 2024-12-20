@@ -33,12 +33,4 @@ Table 2. Optimised hyperârameters and performances obtained with the extratrees
 Figure 2. Experimental vs calculated E using the opitmised extratrees regressor
 
 
-This version could then be used to predict extraction efficiency values. Predictions are obviosuly dependent on the training data and could be innacurate, in particular if conflicts exists between literature data. Figure 3 shows an example of the predicted vs actual extraction of acids into an organic phase made of undiluted TBP.
-
-
-
-
-![image](https://github.com/user-attachments/assets/0e010383-107d-4434-9bce-ea9453ac335c)
-![image](https://github.com/user-attachments/assets/7fb5b452-88dc-45ff-b950-7fb7163b7d34)
-
-Figure 3. Predicted (line) and experimental (dots) concentration of various acids extracted in the pure TBP phase as a function of the initial aqueous acid concentration. 
+This version could then be used to predict extraction efficiency values. Predictions are obviosuly dependent on the training data and could be innacurate, in particular if conflicts exists between literature data. 
